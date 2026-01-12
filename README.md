@@ -17,5 +17,5 @@
 在shellHook中添加
 
 ```shell
-export CPP_INCLUDE_PATH="${pkgs.ftl}/include/ftl:$CPP_INCLUDE_PATH"
+export CPLUS_INCLUDE_PATH="${pkgs.ftl}/include''${CPLUS_INCLUDE_PATH:+:$CPLUS_INCLUDE_PATH}"
 ```
