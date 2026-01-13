@@ -4,7 +4,7 @@
 {
     description = "...";
     inputs = {
-        cpp_ftl.url =  "github:Nazelto/nix-ftl-Functional-Template-Library-for-C-";
+        cpp_ftl.url =  "github:Nazelto/nix-ftl";
     };
     outputs = inputs@{
         self,
